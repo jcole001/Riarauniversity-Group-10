@@ -1,0 +1,29 @@
+/* use of simple - class selector */
+.header{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    
+}
+/* 
+use of simple - element selectors */
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.form-table{
+    border: 2px solid black;
+    width: 500px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    color: white;
+    position: absolute;
+    bottom:-100px; 
+    left:750px; 
+    border-radius: 10px;
+    padding: 25px;
+
+    
+}

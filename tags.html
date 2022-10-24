@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div style = "color: red">
+        <h1>Types of red flowers</h1>
+        <p>List of flowers with red petals</p>
+    </div>
+        <ul>
+            <li>Rose</li>
+            <img src="Rose.jpg" alt="Rose">
+            <hr>
+            <li>Amaryllis</li>
+            <img src="Amaryllis.jpg" alt="Amaryllis">
+            <hr>
+            <li>Poppy</li>
+            <img src="Poppy.jpg" alt="Poppy">
+            <hr>
+            <li>Chrysanthemum</li>
+            <img src="Chrysanthemum.jpg" alt="Chrysanthamum">
+            <hr>
+         </ul>
+    <div style = "color: red">
+    <h3>Scientific Names</h3>
+    <caption>Latinised names are as shown below</caption>
+    <br>
+    <hr>
+    </div>
+
+
+    <table border="1">
+    <tr>
+      <th>ENGLISH NAME</th>
+      <th>SCIENTIFIC NAME</th>
+    </tr>
+    <tr>
+      <td>Rose</td>
+      <td>Rosa rubiginosa</td>
+    </tr>
+    <tr>
+      <td>Amaryllis</td>
+      <td>Hippeastrum species</td>
+    </tr>
+    <tr>
+      <td>Poppy</td>
+      <td>Papaver rhoeas</td>
+    </tr>
+    <tr>
+        <td>Chrysanthemum</td>
+        <td>Chrysanthamum indicum</td>
+    </tr>
+</table>
+<br>
+
+
+<form>
+    <caption><h4>Upload your favourite red flower below and what you like about it</h4></caption>
+    <label for="fname">English Name</label>
+    <input type="text" id="ename" name="ename">
+    <br>
+    <hr>
+    <label for="lname">Scientific Name</label>
+    <input type="nu" id="sname" name="sname">
+    <br>
+    <hr>
+    <label for="age">Number of petals per flower</label>
+    <input type="text" id="npetals" name="npetals">
+    <br>
+    <hr>
+    <caption>What color is the flower?</caption>
+    <input type = "radio" name = "color" value = "red"> Red
+    <input type = "radio" name = "color" value = "blue"> Blue
+    <input type = "radio" name = "color" value = "yellow"> Yellow
+    <input type = "radio" name = "color" value = "white"> White
+    <br>
+    <hr>
+    Short description of the flower : <br />
+    <textarea rows = "5" cols = "50" name = "description">
+       Enter description here...
+    </textarea>
+    <br>
+    <hr>
+    <caption>Is the flower;</caption>
+    <input type = "checkbox" name = "indigenous" value = "on"> Indigenous
+    <input type = "checkbox" name = "exotic" value = "on"> Exotic
+    <br>
+    <hr>
+    <label for="uploadid">Upload Flower</label>
+    <input type="file" id="uploadflower" name="uploadflower" accept="image/*">
+    <br>
+    <br>
+    <p><input type="submit" name="submit" value="submit" />
+        <input type="reset" name="reset" value="reset" />
+    </p>  
+</form>
+</body>
+</html>
